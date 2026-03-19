@@ -1,0 +1,6 @@
+writeLines(c(
+  "^.*\\.Rproj$",
+  "^\\.Rproj\\.user$",
+  "^\\.Rhistory$",
+  "^\\.RData$"
+), ".Rbuildignore")

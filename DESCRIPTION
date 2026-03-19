@@ -1,0 +1,18 @@
+Package: epsilonPartiel
+Type: Package
+Title: calcul des tailles d'effet partielles pour ANOVA
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Charles", "Morin",
+      email = "charlesmorin2002@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Package permettant de calculer les trois tailles d'effet partielles 
+    (eta carré partiel, omega carré partiel, epsilon carré partiel) à partir 
+    des valeurs F, df_effect et df_error issues d'une ANOVA factorielle.
+License: MIT
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.3.3
