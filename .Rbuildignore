@@ -1,6 +1,6 @@
-writeLines(c(
-  "^.*\\.Rproj$",
-  "^\\.Rproj\\.user$",
-  "^\\.Rhistory$",
-  "^\\.RData$"
-), ".Rbuildignore")
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory$
+^\.RData$
+^\.gitignore$
+^\.gitattributes$
